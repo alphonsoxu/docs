@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T03:35:03.998Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="-HzwwLU1b6g2z7g_x85W" version="21.6.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-17T06:09:23.685Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="3kedQ8YEx6hIrQgyaCJE" version="21.6.5" type="github" pages="2">
   <diagram name="第 1 页" id="XC1cmtRtYwHu6fNaA_AL">
     <mxGraphModel dx="2261" dy="3102" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -177,7 +177,7 @@
           <mxGeometry x="-811" y="80" width="20" height="2280" as="geometry" />
         </mxCell>
         <mxCell id="iPr5nIbGFoYJWPTCfkHv-2" value="EndorseRequestVO" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="80" width="160" height="2280" as="geometry" />
+          <mxGeometry x="-160" y="80" width="230" height="2280" as="geometry" />
         </mxCell>
         <mxCell id="QJuXcNw7wFdoZ7rtJz3L-13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=1;" edge="1" parent="iPr5nIbGFoYJWPTCfkHv-2" source="QJuXcNw7wFdoZ7rtJz3L-3">
           <mxGeometry relative="1" as="geometry">
@@ -221,6 +221,14 @@
             <mxPoint x="-159.5" y="920" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="LN-jjJmm47JvM6QbmsbF-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="iPr5nIbGFoYJWPTCfkHv-2" source="LN-jjJmm47JvM6QbmsbF-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-40" y="1910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LN-jjJmm47JvM6QbmsbF-3" value="1.订单类型校验&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2.&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;航变可改校验&lt;/span&gt;&lt;/div&gt;3.折扣金额校验&lt;br&gt;4.年龄类型校验&lt;br&gt;5.X产品校验" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="iPr5nIbGFoYJWPTCfkHv-2">
+          <mxGeometry x="30" y="1900" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="iPr5nIbGFoYJWPTCfkHv-7" value="EndorseInquiryRequest" style="html=1;verticalAlign=bottom;endArrow=block;rounded=1;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
