@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T06:09:23.685Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="3kedQ8YEx6hIrQgyaCJE" version="21.6.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-17T06:24:23.382Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="dYYWCIu04ZnRUYFFou5R" version="21.6.5" type="github" pages="2">
   <diagram name="第 1 页" id="XC1cmtRtYwHu6fNaA_AL">
     <mxGraphModel dx="2261" dy="3102" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -148,12 +148,13 @@
         <mxCell id="g61AM5IbiB40RlU1EeOU-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};rounded=1;" vertex="1" parent="g61AM5IbiB40RlU1EeOU-11">
           <mxGeometry x="65" y="1037" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vmFS1IPTxP4jYsqpDuVL-21" value="9 国内多段&lt;br&gt;一起改校验" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=1;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="vmFS1IPTxP4jYsqpDuVL-20" parent="g61AM5IbiB40RlU1EeOU-11">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="vmFS1IPTxP4jYsqpDuVL-21" value="9 国内多段一起改校验" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=1;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="vmFS1IPTxP4jYsqpDuVL-20" parent="g61AM5IbiB40RlU1EeOU-11">
+          <mxGeometry x="-0.0035" relative="1" as="geometry">
             <mxPoint x="70" y="2000" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="100" y="2030" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vmFS1IPTxP4jYsqpDuVL-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};rounded=1;" vertex="1" parent="g61AM5IbiB40RlU1EeOU-11">
@@ -177,7 +178,7 @@
           <mxGeometry x="-811" y="80" width="20" height="2280" as="geometry" />
         </mxCell>
         <mxCell id="iPr5nIbGFoYJWPTCfkHv-2" value="EndorseRequestVO" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="80" width="230" height="2280" as="geometry" />
+          <mxGeometry x="-160" y="80" width="160" height="2270" as="geometry" />
         </mxCell>
         <mxCell id="QJuXcNw7wFdoZ7rtJz3L-13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=1;" edge="1" parent="iPr5nIbGFoYJWPTCfkHv-2" source="QJuXcNw7wFdoZ7rtJz3L-3">
           <mxGeometry relative="1" as="geometry">
@@ -544,8 +545,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vmFS1IPTxP4jYsqpDuVL-23" value="response map" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=1;" edge="1" parent="1">
-          <mxGeometry x="0.0043" relative="1" as="geometry">
+        <mxCell id="vmFS1IPTxP4jYsqpDuVL-23" value="check result" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=1;" edge="1" parent="1">
+          <mxGeometry x="0.004" relative="1" as="geometry">
             <mxPoint x="-325" y="2180" as="sourcePoint" />
             <mxPoint x="-559" y="2180" as="targetPoint" />
             <mxPoint as="offset" />
